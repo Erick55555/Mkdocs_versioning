@@ -1,0 +1,10 @@
+site_name: My Docs
+nav:
+  - Home: "index.md"
+  - Version Selector: "../"
+
+plugins:
+  - with-pdf:
+      author: "YO"
+  - mkdocs-versioning:
+      version: 0.4.0
